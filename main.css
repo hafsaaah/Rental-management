@@ -16,17 +16,19 @@
     color: rgb(233, 228, 225);
 }
 .hehe{
-   background-image:linear-gradient(rgba(40, 37, 37, 0.6), rgba(42, 41, 41, 0.6)), url(blkbg2.jpg);
-   background-attachment: scroll;
-   background-position:top right;
-   height: 600px;
-   
+   background-image:linear-gradient(rgba(22, 20, 20, 0.8), rgba(29, 27, 27, 0.8)), url(neil-mark-thomas-vCX0NQeXWiY-unsplash\ \(1\).jpg);
+   background-position:center; background-attachment: scroll;
+   height: 450px;
+   background-position: center;
+   background-size: cover;
+   position: relative;
+   background-repeat: no-repeat;
 }
 h1{
     
     font-family: "Ink Free", Times, serif;
     font-weight: bold;
-    color: rgb(45, 45, 45);
+    color: beige;
     font-size: xx-large;
     font-style: oblique;
     
@@ -35,8 +37,51 @@ h3{
     font-size: medium;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 700;
+    color: beige;
 }
 
 .hey{
     background-color: aliceblue;
 }
+
+label{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(39, 39, 38);
+}
+body, html {
+    height: 100%; 
+}
+.form-container {
+    background-color: white;
+    padding: 0.5rem; /* Default padding */
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 60%;
+    height: 160px;
+   
+   
+   
+  }
+  @media (min-width: 576px) {
+    .form-container {
+      padding: 1.5rem; /* Small devices */
+    }
+  }
+  @media (min-width: 768px) {
+    .form-container {
+      padding: 2rem; /* Medium devices */
+    }
+  }
+  @media (min-width: 992px) {
+    .form-container {
+      padding: 2rem; /* Large devices */
+    }
+  }
+  @media (min-width: 1200px) {
+    .form-container {
+      padding: 2rem; /* Extra large devices */
+    }
+  }
+  
