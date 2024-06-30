@@ -1,4 +1,4 @@
-.f{
+h2{
     
     font-family: "Ink Free", Times, serif;
     font-weight: bolder;
@@ -15,15 +15,7 @@
 .m{
     color: rgb(233, 228, 225);
 }
-.hehe{
-   background-image:linear-gradient(rgba(22, 20, 20, 0.8), rgba(29, 27, 27, 0.8)), url(neil-mark-thomas-vCX0NQeXWiY-unsplash\ \(1\).jpg);
-   background-position:center; background-attachment: scroll;
-   height: 450px;
-   background-position: center;
-   background-size: cover;
-   position: relative;
-   background-repeat: no-repeat;
-}
+
 h1{
     
     font-family: "Ink Free", Times, serif;
@@ -33,16 +25,7 @@ h1{
     font-style: oblique;
     
 }
-h3{
-    font-size: medium;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
-    color: beige;
-}
 
-.hey{
-    background-color: aliceblue;
-}
 
 label{
     font-family: 'Times New Roman', Times, serif;
@@ -56,9 +39,8 @@ body, html {
     background-color: white;
     padding: 0.5rem; /* Default padding */
     border-radius: 5px;
-    position: absolute;
     bottom: 0;
-    width: 60%;
+    width: 50%;
     height: 160px;
    
    
@@ -84,4 +66,22 @@ body, html {
       padding: 2rem; /* Extra large devices */
     }
   }
-  
+  .c-item{
+    height: 580px;
+
+  }
+  .c-image{
+     height:100%;
+     object-fit: cover;
+     filter: brightness(0.4);
+     
+  }
+  .c-image1{
+    height:100%;
+    object-fit: cover;
+    filter: brightness(0.4);
+    bottom: 0;
+  }
+  .hu{
+    background-color: rgb(178, 163, 145);
+  }
