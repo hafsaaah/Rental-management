@@ -67,22 +67,19 @@ body, html {
     }
   }
   .c-item{
-    height: 500px;
+    height: 480px;
 
   }
   .c-image{
      height:100%;
      object-fit: cover;
-     filter: brightness(0.3);
+     filter: brightness(0.4);
      
   }
   .c-image1{
     height:100%;
     object-fit: cover;
-    filter: brightness(0.3);
-    bottom: 0;
-  }
-  .hu{
-   
-  }
-  
+    filter: brightness(0.4);
+    
+ }
+ 
